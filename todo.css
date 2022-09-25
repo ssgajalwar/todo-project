@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffd60a;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #000814;
+    min-height: 100vh;
+    height: auto;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.app ul{
+    list-style-type: none;
+}
+li input{
+    background-color: #000814;
+    border: none;
+    padding: 20px;
+    
+}
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+form button{
+    border-radius: 4px; 
+}
+.create{
+    padding: 15px;
+    width: 250px;
+    background-color: #003566;
+    font-size: 20px;
+    margin-right: 10px;
+}
+ul{
+    margin-top: 50px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.delete-img{
+    height: 40px;
+    cursor: pointer;
+}
+.page-img{
+    height: 40px;
+    cursor: pointer;
+}
+input.check{
+    height: 40px;
+    width: 40px;
+    
+}
+.check:active{
+    background-color: #ffd60a;
+}
+
+.task{
+    font-size: 20px;
+}
+.task:focus{
+    outline: none;
+}

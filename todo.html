@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do</title>
+  
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+  <div class="container">
+    <div class="app">
+      <h1>TO DO LIST</h1>
+      <form>
+        <input class="create" type="text" placeholder="Add new Task...."/>
+        <button type="submit">
+          <img class="page-img" src="images/page.png" alt="">
+        </button> 
+      </form>
+      <ul>
+        <li>
+          <input type="checkbox"  onclick="taskComplete(this)" class="check">
+          <input type="text" value="Exercise" class="task" onfocus="getCurrentTask(this)" onblur="editTask(this)" >
+          <img onclick="removeTask(this)"  class="delete-img" src="images/delete.png" alt=""/>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+
+ 
+</body>
+</html>
